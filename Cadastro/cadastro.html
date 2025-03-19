@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar Vaga</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <h1>Garanta a sua vaga!</h1>
+    <p>Preencha o formulário abaixo</p>
+
+<form>
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" value="Jefferson">
+<label for="telefone">Telefone:</label>
+<input type="text" id="nome" name="nome" value="(85) 00000.0000"><br>
+<label for="email">E-mail:</label>
+<input type="text" id="email" name="email" value="jeff.cbe@gmail.com">
+</form>
+<p>Endereço</p>
+<form>
+    <label for="cep">CEP</label>
+    <input type="text" id="cep" name="cep" value="6000000">
+    <label for="nome">Logradouro</label>
+<input type="text" id="nome" name="nome" value="Rua 123">
+<label for="nome">Nº</label>
+<input type="text" id="numero" name="numero" value="111">
+<label for="nome">Complemento</label>
+<input type="text" id="complemento" name="complemento" value="Casa">
+<label for="nome">Bairro:</label>
+<input type="text" id="bairro" name="bairro" value="Centro">
+</form>
+    
+<form action="/action_page.php">
+    <label for="uf">UF:</label>
+    <select name="uf" id="uf">
+      <option value="am">AM</option>
+      <option value="ce">CE</option>
+      <option value="pe">PE</option>
+      <option value="rj">RJ</option>
+    </select>
+
+    <form action="/action_page.php">
+        <label for="cidade">Cidade:</label>
+        <select name="uf" id="uf">
+          <option value="manaus">Manaus</option>
+          <option value="fortaleza">Fortaleza</option>
+          <option value="recife">Recife</option>
+          <option value="rioDeJaneiro">Rio de Janeiro</option>
+        </select>
+
+    <br><br>
+    <input type="submit" value="Sign In">
+  </form>
+  
+</body>
+</html>

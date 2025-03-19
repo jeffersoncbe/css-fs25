@@ -50,4 +50,7 @@ a:hover {
     #card {
         width: 80%;
     }
+    .img {
+        image-resolution: 80%;
+    }
 }
